@@ -13,15 +13,15 @@ async def cb_handler(client: Bot, query: CallbackQuery):
 ├➤ ᴄʀᴇᴀᴛᴏʀ  : <a href='t.me/{OWNER_USER}'>ᴛʜɪs ᴘᴇʀsᴏɴ</a>
 ├➤ ʟɪʙʀᴀʀy : <a href=https://github.com/pyrogram>ᴘʏʀᴏɢʀᴀᴍ</a>
 ├➤ ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org>ᴘʏᴛʜᴏɴ 3</a>
-├➤ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href=https://t.me/outlawbots>ᴏᴜᴛʟᴀᴡ ʙᴏᴛs</a>
-├➤ ᴘᴀɪᴅ ʙᴏᴛ : <a href=https://t.me/ifeelscam>ᯓ ɪɴᴠᴀʟɪᴅ ᡣ𐭩</a>
-├➤ ᴅᴇᴠʟᴏᴘᴇʀ : <a href=https://t.me/HateXfree>ᯓ ʜᴀᴛᴇ ғʀᴇᴇ ᡣ𐭩</a>
+├➤ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href=https://t.me/XtremeBotd>Xtreme ʙᴏᴛs</a>
+├➤ ᴘᴀɪᴅ ʙᴏᴛ : <a href=https://t.me/XtremeBots>ᯓ Xtreme Bots ᡣ𐭩</a>
+├➤ ᴅᴇᴠʟᴏᴘᴇʀ : <a href=https://t.me/XtremeBots>ᯓ Xtreme Botsᡣ𐭩</a>
 ╰───────────────⍟</blockquote></b>""",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [ [ InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", callback_data ="source"),
                   InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ" , callback_data = "main")],
-                 [InlineKeyboardButton("ᴡᴀᴛᴄʜ sʜᴏʀᴛs ᴠɪᴅᴇᴏs", url = "https://t.me/UnseenRobot/shorts")],
+                 [InlineKeyboardButton("Anime channel", url = "https://t.me/AniXtreme")],
                     [
                         InlineKeyboardButton("ʜᴏᴍᴇ", callback_data = "start"),
                         InlineKeyboardButton(" ᴄʟᴏsᴇ ", callback_data = "close")
@@ -42,7 +42,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                     InlineKeyboardButton(text="🎭", callback_data="about"),
                 ],[ InlineKeyboardButton( "ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", callback_data = "main" ),
                     InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", callback_data = "source")
-                ], [ InlineKeyboardButton("ᴡᴀᴛᴄʜ sʜᴏʀᴛs ᴠɪᴅᴇᴏs", url = "http://t.me/UnseenRobot/shorts") ],
+                ], [ InlineKeyboardButton("Anime channel", url = "http://t.me/Anixtreme") ],
                 [
                     InlineKeyboardButton("ʜᴇʟᴘ", callback_data = "help"),
                     InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data = "about")
@@ -65,8 +65,8 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(
                 [   
                     [
-                        InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Outlawbots"),
-                        InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ",url = "t.me/outlawbots")
+                        InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Anixtreme"),
+                        InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ",url = "t.me/XtremeBots")
                     ],
                     [   InlineKeyboardButton("ʜᴏᴍᴇ ", callback_data = "start"), 
                         InlineKeyboardButton("ᴄʟᴏsᴇ ", callback_data = "close")
@@ -80,8 +80,8 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 disable_web_page_preview=True,
                 reply_markup = InlineKeyboardMarkup(
                     [
-                        [  InlineKeyboardButton("ᴅᴇᴠʟᴏᴘᴇʀ",url= "t.me/HateXfree"),
-                         InlineKeyboardButton("ᴀᴅᴍɪɴ",url = "t.me/CallAdminsRobot")],
+                        [  InlineKeyboardButton("ᴅᴇᴠʟᴏᴘᴇʀ",url= "t.me/XtremeBots"),
+                         InlineKeyboardButton("ᴀᴅᴍɪɴ",url = "t.me/XtremeBots")],
                         [ InlineKeyboardButton("ʜᴏᴍᴇ", callback_data = "start"),
                          InlineKeyboardButton( "ᴄʟᴏsᴇ", callback_data = "close")]
                     ]
@@ -95,7 +95,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 [   
                     [
                         InlineKeyboardButton("ɢɪᴛʜᴜʙ ", url="https://publicearn.com/GitHub"),
-                        InlineKeyboardButton("ᴢɪᴘ ғɪʟᴇ",url="https://t.me/+Yy9O2e_eJwU3NjRl")
+                        InlineKeyboardButton("ᴢɪᴘ", url="https://t.me/XtremeBots)
                     ],
                     [   InlineKeyboardButton("ʜᴏᴍᴇ" , callback_data = "start"),
                         InlineKeyboardButton(" ᴄʟᴏsᴇ", callback_data = "close")
