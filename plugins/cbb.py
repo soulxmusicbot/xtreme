@@ -95,7 +95,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 [   
                     [
                         InlineKeyboardButton("ɢɪᴛʜᴜʙ ", url="https://publicearn.com/GitHub"),
-                        InlineKeyboardButton("ᴢɪᴘ", url="https://t.me/XtremeBots)
+                        InlineKeyboardButton("ᴢɪᴘ", url="https://t.me/XtremeBots")
                     ],
                     [   InlineKeyboardButton("ʜᴏᴍᴇ" , callback_data = "start"),
                         InlineKeyboardButton(" ᴄʟᴏsᴇ", callback_data = "close")
